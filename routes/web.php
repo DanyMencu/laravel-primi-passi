@@ -17,5 +17,15 @@ Route::get('/', function () {
     return view('homepage', [
         'title' => 'Hello Laravel',
         'content' => 'Lorem ipsum dolor sit amet, consectetur adip...',
+        'url_contact' => '/contact',
+    ]);
+});
+
+
+Route::get('/contact', function () {
+    return view('contact', [
+        'title' => 'Laravel contact',
+        'content' => 'Lorem ipsum dolor sit amet, consectetur adip...',
+        'url_contact' => '/contact',
     ]);
 });
