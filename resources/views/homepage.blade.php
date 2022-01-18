@@ -7,6 +7,9 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>Hello Laravel</h1>
+    <main>
+        <h1>{{ $title }}</h1>
+        <p>{{ $content }}</p>
+    </main>
 </body>
 </html>
